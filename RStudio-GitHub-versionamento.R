@@ -1,3 +1,8 @@
+# """""""" REFERÊNCIA """""""" ---------------------------------------------
+# Este script é baseado na seguinte apresentação sobre o uso do Git e 
+# GitHub no RStudio:
+# <https://www.youtube.com/watch?v=uQL6NOSd9cc>
+
 # RSTUDIO E GITHUB --------------------------------------------------------
 
 # Baixar o pacote "usethis"------------------------------------------------
