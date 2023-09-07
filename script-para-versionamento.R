@@ -1,3 +1,7 @@
+# """""""" REFERÊNCIA """""""" ---------------------------------------------
+# Este script é baseado na seguinte apresentação sobre o uso do Git e 
+# GitHub no RStudio:
+# <https://www.youtube.com/watch?v=uQL6NOSd9cc>
 
 # RSTUDIO E GITHUB --------------------------------------------------------
 
@@ -6,8 +10,8 @@
 library(usethis)
 
 # Se apresentar para o GitHub ---------------------------------------------
-usethis::use_git_config(user.name = "Luiz Henrique",
-                        user.email = "sbluizhenrique@gmail.com")
+usethis::use_git_config(user.name = "(seu nome)",
+                        user.email = "(email)")
 
 # Gerar GitHub Token ------------------------------------------------------
 usethis::create_github_token()
@@ -19,14 +23,14 @@ usethis::create_github_token()
 # Salvar GitHub Token no PC -----------------------------------------------
 # 1. Método 1: edit_r_environ() ----
 usethis::edit_r_environ() # Linha 1: GITHUB_PAT="[colar GitHub Token]"
-# Linha 2: Deixar em branco
+                          # Linha 2: Deixar em branco
 
 # 2. Método 2: gitcreds_set() ----
 gitcreds::gitcreds_set()
 # -> Your current credentials for 'https://github.com':
 #   protocol: https
 #   host    : github.com
-#   username: sbluizhenrique
+#   username: xxxxxxxxxxx
 #   password: <-- hidden -->
 #     
 # -> What would you like to do? 
