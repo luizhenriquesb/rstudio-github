@@ -3,6 +3,11 @@
 # GitHub no RStudio:
 # <https://www.youtube.com/watch?v=uQL6NOSd9cc>
 
+# Antes de tudo! ----------------------------------------------------------
+
+# É necessário fazer o download do Git 
+# <https://git-scm.com/downloads>
+
 # RSTUDIO E GITHUB --------------------------------------------------------
 
 # Baixar o pacote "usethis"------------------------------------------------
